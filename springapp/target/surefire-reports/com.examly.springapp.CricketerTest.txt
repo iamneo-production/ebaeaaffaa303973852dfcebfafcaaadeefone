@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.CricketerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.392 s <<< FAILURE! - in com.examly.springapp.CricketerTest
+testConnection  Time elapsed: 1.198 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: Unknown database 'bookstore'
+	at com.examly.springapp.CricketerTest.testConnection(CricketerTest.java:146)
+
+testRetrieveData  Time elapsed: 0.003 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: Unknown database 'bookstore'
+	at com.examly.springapp.CricketerTest.testRetrieveData(CricketerTest.java:155)
+
