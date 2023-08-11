@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.CricketerTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.389 s <<< FAILURE! - in com.examly.springapp.CricketerTest
-testRetrieveData  Time elapsed: 0.037 s  <<< ERROR!
-java.sql.SQLSyntaxErrorException: Table 'bookstore.cricketer' doesn't exist
-	at com.examly.springapp.CricketerTest.testRetrieveData(CricketerTest.java:159)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.602 s - in com.examly.springapp.CricketerTest
